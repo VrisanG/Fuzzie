@@ -71,7 +71,99 @@ export default function Home() {
                   </li>
                   <li className="flex items-center gap-2">
                     
-                  <FaCheck/> 100 tasks per month
+                  <FaCheck/> 50 tasks per month
+                  </li>
+                  <li className="flex items-center gap-2">
+                    
+                  <FaCheck/> Two-step Actions
+                  </li>
+                </ul>
+              </CardItem>
+              <div className="flex justify-between items-center mt-8">
+                <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                >
+                  Try now →
+                </CardItem>
+                <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                >
+                  Get Started Now
+                </CardItem>
+              </div>
+            </CardBody>
+          </CardContainer>
+          <CardContainer className="inter-var hover:shadow-2xl hover:shadow-blue-500">
+          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
+              <CardItem
+                translateZ="50"
+                className="text-xl font-bold text-neutral-600 dark:text-white "
+              >
+                Fuzzie Basic
+                <h2 className="text-6xl ">$29</h2>
+              </CardItem>
+              <CardItem
+                translateZ="60"
+                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+              >
+                beginner level Application for new people for most of their need 
+                <ul className="my-4 flex flex-col gap-2">
+                  <li className="flex items-center gap-2">
+                   <FaCheck/> 5 Automations
+                  </li>
+                  <li className="flex items-center gap-2">
+                    
+                  <FaCheck/> 500 tasks per month
+                  </li>
+                  <li className="flex items-center gap-2">
+                    
+                  <FaCheck/> Two-step Actions
+                  </li>
+                </ul>
+              </CardItem>
+              <div className="flex justify-between items-center mt-8">
+                <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                >
+                  Try now →
+                </CardItem>
+                <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                >
+                  Get Started Now
+                </CardItem>
+              </div>
+            </CardBody>
+          </CardContainer>
+          <CardContainer className="inter-var hover:shadow-2xl hover:shadow-blue-500">
+          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
+              <CardItem
+                translateZ="50"
+                className="text-xl font-bold text-neutral-600 dark:text-white "
+              >
+                Fuzzie Advance
+                <h2 className="text-6xl ">$49</h2>
+              </CardItem>
+              <CardItem
+                translateZ="60"
+                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+              >
+                The All in one Pack fro the Advance people and their advance Needs
+                <ul className="my-4 flex flex-col gap-2">
+                  <li className="flex items-center gap-2">
+                   <FaCheck/> 10+ automations
+                  </li>
+                  <li className="flex items-center gap-2">
+                    
+                  <FaCheck/> 1000 tasks per month
                   </li>
                   <li className="flex items-center gap-2">
                     
@@ -98,6 +190,7 @@ export default function Home() {
             </CardBody>
           </CardContainer>
         </div>
+        
       </section>
     </section>
     
